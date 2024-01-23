@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87B264F0-0DED-469F-9506-4C14A921506E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SuperMarketManagementApp</RootNamespace>
+    <AssemblyName>SuperMarketManagementApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Bills.cs" />
+    <Compile Include="BL\Log_in.cs" />
+    <Compile Include="BL\Products.cs" />
+    <Compile Include="BL\SignUp.cs" />
+    <Compile Include="DAL\DataAccessLayer.cs" />
+    <Compile Include="PL\BillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\BillForm.designer.cs">
+      <DependentUpon>BillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\LogInForm.designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\PrintBillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\PrintBillForm.designer.cs">
+      <DependentUpon>PrintBillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\ProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\ProductForm.designer.cs">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\SignUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\SignUpForm.designer.cs">
+      <DependentUpon>SignUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\BillForm.resx">
+      <DependentUpon>BillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\PrintBillForm.resx">
+      <DependentUpon>PrintBillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\ProductForm.resx">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\SignUpForm.resx">
+      <DependentUpon>SignUpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Images\Capture.PNG" />
+    <Content Include="Images\IMG-20211224-WA0027.jpg" />
+    <Content Include="Images\IMG-20211224-WA0033.jpg" />
+    <Content Include="Images\login.jpg" />
+    <Content Include="Images\nathalia-rosa-rWMIbqmOxrY-unsplash.jpg" />
+    <Content Include="Images\photo_2022-01-06_21-38-51.jpg" />
+    <Content Include="Images\photo_2022-01-06_21-39-46.jpg" />
+    <Content Include="Images\photo_2022-01-06_21-39-461.jpg" />
+    <Content Include="Images\photo_2022-01-06_21-39-52.jpg" />
+    <Content Include="Images\photo_2022-01-06_21-39-521.jpg" />
+    <Content Include="Images\photo_2022-01-06_21-39-57.jpg" />
+    <Content Include="Images\s.PNG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

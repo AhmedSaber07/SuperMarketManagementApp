@@ -1,0 +1,14 @@
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.Properties.Resources.resources
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.csproj.GenerateResource.cache
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.csproj.CoreCompileInputs.cache
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\bin\Debug\SuperMarketManagementApp.exe.config
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\bin\Debug\SuperMarketManagementApp.exe
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\bin\Debug\SuperMarketManagementApp.pdb
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.exe
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.pdb
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.csproj.AssemblyReference.cache
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.Form1.resources
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.Form3.resources
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.PL.PrintBillForm.resources
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.Form2.resources
+F:\Projects\SuperMarketManagementApp\SuperMarketManagementApp\obj\Debug\SuperMarketManagementApp.Form4.resources
